@@ -121,7 +121,7 @@ namespace WebAPI_EmployeeRecords.Core.Model.Utility
             //    _adapter.SelectCommand = _command;
             //    _adapter.Fill(dataTable);
             //}
-            //return dataTable;
+            //return dataTable;//
         }
 
         public Int32 GetCount(String query, List<InputParameter> inputParameters)
